@@ -1,7 +1,9 @@
 1. Explain what the simple List component does.
+
 Here in the simple list component, it display the list of item passed through a props through which it allows user to click on the items and when the user click on the particular item it match the index of that with the selected list item if it is same it changes the click color to green.
 
 2. What problems / warnings are there with code?
+
 In the given code there was few problems and they are menioned below:
     1. PropTypes.shapeOf - As ShapeOf is not any method so instead of using shapeOf we need to use shape ( PropTypes.shape is a method of the PropTypes module that              shapes an object that passed through props).
     2. PropTypes.array - Using array can restricted on the shape of object in the array but while using arrayOf we can pass any type of value through the props.
