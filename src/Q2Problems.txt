@@ -1,0 +1,12 @@
+WrappedListComponent.propTypes = {
+  items: PropTypes.array(
+    PropTypes.shapeof({   
+      text: PropTypes.string.isRequired,
+    })
+  ),
+};
+
+.array
+.shapeof is not a function
+Here, in the above snippet shapeof is not any function instead propTypes.shape is the method that stores the shape of the object that is passed 
+through the props to any component
