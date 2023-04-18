@@ -25,4 +25,5 @@ In the given code there was few problems and they are menioned below:
       text:"FOURTH"
     },
   ]
+  
     we need to pass the array of object as a props to perform the action.
